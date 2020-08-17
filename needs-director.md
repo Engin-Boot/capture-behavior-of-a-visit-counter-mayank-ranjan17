@@ -4,7 +4,7 @@ Scenario: Show patient visits during working days and holidays
 
   Given the log of patient list and their schedule
   When a patient recovers
-  Then the patient leaves the hospital and number of beds vacant count increases by one
+  Then the patient leaves the hospital and vacant beds count increases by one
   
 Scenario: Compute parking slots to reserve for visiting specialists
 
